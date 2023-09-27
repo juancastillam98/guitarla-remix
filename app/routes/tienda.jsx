@@ -1,6 +1,7 @@
 import {getGuitarras} from "~/models/guitarras.server";
 import {useLoaderData} from "@remix-run//react";
 import {Guitarra} from "~/components/guitarra";
+// @ts-ignore
 import styles from "~/styles/guitarras.css"
 
 export function links(){

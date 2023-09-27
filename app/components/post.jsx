@@ -3,13 +3,15 @@ import {formatearFecha} from "~/utils/helpers"
 export default function  Post({post}) {
 	const {contenido, imagen, titulo, url, publishedAt}=post
 	return (
+
 		<article className={"post"}>
-			<img  className={"imagen"} src={imagen.data.attributes.formats.small.url} generator-unable-to-provide-required-alt={`Imagen blog ${titulo}`}/>
+			<img  className={"imagen"} src={imagen.data.attributes.formats.small.url} alt={`Imagen blog ${titulo}`}/>
 			<div className={"contenido"}>
 				<h3>{titulo}</h3>
 				<p className={"fecha"}>{formatearFecha(publishedAt)}</p>
 				<p className={"resumen"}>{contenido}</p>
-				<Link className={"enlace"} to={`/${url}`}>Leer Post</Link>
+				{/*Aquí le estoy pasando la url por parámetro , la cuál está almacenada como variable url*/}
+				<Link className={"enlace"} to={url}>Leer Post</Link>
 			</div>
 		</article>
 	)

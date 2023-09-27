@@ -1,7 +1,7 @@
 //esta fichero es el routing dinámico. EL routing dinámico comienza con un símbolo de $
 
 //para obtener la guitarra a la que hemos hecho click, vamos a filtrar por url --> http://localhost:1337/api/guitarras?filters[url]=beck&populate=imagen
-import {getGuitarra} from "../../models/guitarras.server";
+import {getGuitarra} from "../models/guitarras.server";
 import {useLoaderData} from "@remix-run/react"
 import styles from "~/styles/guitarras.css";
 

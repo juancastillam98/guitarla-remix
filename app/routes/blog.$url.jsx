@@ -1,6 +1,6 @@
 import {useLoaderData} from "@remix-run//react";
 import {getPost} from"~/models/posts.server"
-import {formatearFecha} from "../../utils/helpers";
+import {formatearFecha} from "../utils/helpers";
 import styles from "~/styles/blog.css";
 export function links(){
     return[
@@ -26,7 +26,7 @@ export  function meta({data}){//cuando usamos el loader, el data va a estar disp
         }
     ]
 }
-export async  function loader({params}){//recuerda, params es para obtener los parámetros desde la url
+export async function loader({params}){//recuerda, params es para obtener los parámetros desde la url
     console.log("params -" + params)
      const{url}=params;
      const post = await getPost(url)
@@ -42,14 +42,19 @@ export async  function loader({params}){//recuerda, params es para obtener los p
 export default function Post() {
     const post=useLoaderData();
     const {titulo, contenido, imagen, publishedAt}=post?.data[0]?.attributes;
+   console.log(post)
     return (
-        <article className={"contenedor post mt-3"}>
-            <img  className={"imagen"} src={imagen.data.attributes.url} generator-unable-to-provide-required-alt={`Imagen blog ${titulo}`}/>
-            <div className={"contenido"}>
-                <h3>{titulo}</h3>
-                <p className={"fecha"}>{formatearFecha(publishedAt)}</p>
-                <p className={"texto"}>{contenido}</p>
-            </div>
-        </article>
+        <>
+            <h1>Me cago en la puta</h1>
+            <article className={"contenedor post mt-3"}>
+                <img  className={"imagen"} src={imagen.data.attributes.url} alt={`Imagen blog ${titulo}`}/>
+                <div className={"contenido"}>
+                    <h3>{titulo}</h3>
+                    <p className={"fecha"}>{formatearFecha(publishedAt)}</p>
+                    <p className={"texto"}>{contenido}</p>
+                </div>
+            </article>
+        </>
+
     )
 }
