@@ -1,0 +1,95 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "titulo": "Primeros pasos para Aprender",
+        "contenido": "Fusce vitae tincidunt lectus. Etiam quis tristique urna. Aenean pulvinar posuere risus, vel sodales diam egestas vitae. Aenean et dictum tellus, eget feugiat est. Sed porttitor nisl sit amet lorem aliquet, a malesuada ipsum sollicitudin. Etiam porta aliquam sem in mattis. Sed consectetur dui dui, sed consequat lectus mattis eget. Nullam blandit enim dui, at vestibulum dolor pellentesque sed. Duis odio neque, posuere sed tellus sit amet, efficitur mattis ex. Phasellus sed orci eros.\n\nVivamus commodo lacinia odio non fermentum. Praesent sodales nulla erat. Morbi luctus tortor et metus finibus, non sodales risus eleifend. Nunc dignissim enim ac erat tristique aliquet. Nullam iaculis massa ut nulla sodales tincidunt. Quisque finibus risus quis sem hendrerit, eget rutrum felis congue. Cras porttitor mollis turpis, in interdum odio commodo in. Nulla tellus nulla, egestas eu varius a, dapibus id enim.",
+        "url": "primeros-pasos",
+        "createdAt": "2023-09-05T18:30:41.767Z",
+        "updatedAt": "2023-09-05T18:30:47.945Z",
+        "publishedAt": "2023-09-05T18:30:47.823Z",
+        "imagen": {
+          "data": {
+            "id": 14,
+            "attributes": {
+              "name": "blog_1.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 800,
+              "height": 600,
+              "formats": {
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693938626/small_blog_1_0d954b50cb.jpg",
+                  "hash": "small_blog_1_0d954b50cb",
+                  "mime": "image/jpeg",
+                  "name": "small_blog_1.jpg",
+                  "path": null,
+                  "size": 29.87,
+                  "width": 500,
+                  "height": 375,
+                  "provider_metadata": {
+                    "public_id": "small_blog_1_0d954b50cb",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693938626/medium_blog_1_0d954b50cb.jpg",
+                  "hash": "medium_blog_1_0d954b50cb",
+                  "mime": "image/jpeg",
+                  "name": "medium_blog_1.jpg",
+                  "path": null,
+                  "size": 54.9,
+                  "width": 750,
+                  "height": 563,
+                  "provider_metadata": {
+                    "public_id": "medium_blog_1_0d954b50cb",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693938626/thumbnail_blog_1_0d954b50cb.jpg",
+                  "hash": "thumbnail_blog_1_0d954b50cb",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_blog_1.jpg",
+                  "path": null,
+                  "size": 7.39,
+                  "width": 208,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_blog_1_0d954b50cb",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "blog_1_0d954b50cb",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 50.16,
+              "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693938626/blog_1_0d954b50cb.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "blog_1_0d954b50cb",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-09-05T18:30:27.086Z",
+              "updatedAt": "2023-09-05T18:30:27.086Z"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 1
+    }
+  }
+}

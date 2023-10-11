@@ -1,7 +1,8 @@
 //import {getPosts} from '~/models/posts.server';
 import {useLoaderData} from "@remix-run//react";
 import {getPosts} from '~/models/posts.server';
-import {ListadoPosts} from "~/components/ListadoPosts";
+import {Post} from "~/components/post";
+import {ListadoPosts} from "~/components/listadoPosts";
 // @ts-ignore
 import styles from "~/styles/blog.css";
 export async function loader(){
@@ -31,7 +32,7 @@ function Blog() {
     return (
         <main className={"contenedor"}>
             <h2 className={"heading"}>Blog</h2>
-           <ListadoPosts posts={posts}/>
+            <ListadoPosts posts={posts}/>
         </main>
     )
 }

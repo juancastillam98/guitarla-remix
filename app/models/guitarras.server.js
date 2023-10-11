@@ -2,7 +2,6 @@
 export async function getGuitarras(){
     const respuesta = await fetch(`${process.env.API_URL}/guitarras?populate=imagen`);//se usa una variable de entorno
     const resultado = await respuesta.json();
-    console.log(resultado)
     return resultado;
 }
 export async function getGuitarra(url){

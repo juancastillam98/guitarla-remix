@@ -1,6 +1,6 @@
 import {Link} from "@remix-run/react";
 import {formatearFecha} from "~/utils/helpers"
-export default function  Post({post}) {
+export function  Post({post}) {
 	const {contenido, imagen, titulo, url, publishedAt}=post
 	return (
 

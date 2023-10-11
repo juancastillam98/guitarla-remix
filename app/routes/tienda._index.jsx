@@ -1,8 +1,8 @@
-import {getGuitarras} from "~/models/guitarras.server";
+import {getGuitarras} from "../models/guitarras.server";
 import {useLoaderData} from "@remix-run//react";
-import {ListadoGuitarras} from "~/components/guitarra";
 // @ts-ignore
 import styles from "~/styles/guitarras.css"
+import {ListadoGuitarras} from "~/components/listadoGuitarras";
 
 export function links(){
     return [
@@ -34,6 +34,7 @@ export default  function Tienda () {
         <main className={"contenedor"}>
             <h2 className={"heading"}>Nuestra Colección</h2>
             <ListadoGuitarras guitarras={guitarras}/>
+
         </main>
     )
 }

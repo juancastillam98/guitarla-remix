@@ -1,0 +1,96 @@
+{
+  "data": [
+    {
+      "id": 3,
+      "attributes": {
+        "nombre": "Page",
+        "createdAt": "2023-09-05T18:13:35.357Z",
+        "updatedAt": "2023-09-05T18:13:38.510Z",
+        "publishedAt": "2023-09-05T18:13:38.392Z",
+        "descripcion": "Nunc ac massa et metus vulputate fermentum non gravida dui. Cras et velit ante. Morbi ultrices, enim sed congue tincidunt, erat felis faucibus mi, sed vestibulum augue risus ut urna. Pellentesque vulputate nulla nec gravida malesuada. Sed suscipit mi ut laoreet sagittis. Etiam in augue imperdiet, cursus velit id, interdum ante. Donec posuere, felis vel molestie congue, elit eros sagittis diam, a faucibus velit orci sit amet mauris. Ut suscipit facilisis eros, vitae euismod diam volutpat vel. Curabitur tempus lacus id iaculis fermentum. Suspendisse sed aliquam magna. Phasellus et tempus mauris. Nunc erat nisi, pretium nec justo eu, faucibus auctor diam.",
+        "precio": 400,
+        "url": "page",
+        "imagen": {
+          "data": {
+            "id": 3,
+            "attributes": {
+              "name": "guitarra_03.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 400,
+              "height": 900,
+              "formats": {
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937599/small_guitarra_03_bc2a07121d.jpg",
+                  "hash": "small_guitarra_03_bc2a07121d",
+                  "mime": "image/jpeg",
+                  "name": "small_guitarra_03.jpg",
+                  "path": null,
+                  "size": 10.07,
+                  "width": 222,
+                  "height": 500,
+                  "provider_metadata": {
+                    "public_id": "small_guitarra_03_bc2a07121d",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937598/medium_guitarra_03_bc2a07121d.jpg",
+                  "hash": "medium_guitarra_03_bc2a07121d",
+                  "mime": "image/jpeg",
+                  "name": "medium_guitarra_03.jpg",
+                  "path": null,
+                  "size": 18.2,
+                  "width": 333,
+                  "height": 750,
+                  "provider_metadata": {
+                    "public_id": "medium_guitarra_03_bc2a07121d",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937598/thumbnail_guitarra_03_bc2a07121d.jpg",
+                  "hash": "thumbnail_guitarra_03_bc2a07121d",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_guitarra_03.jpg",
+                  "path": null,
+                  "size": 2.17,
+                  "width": 69,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_guitarra_03_bc2a07121d",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "guitarra_03_bc2a07121d",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 19.47,
+              "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937598/guitarra_03_bc2a07121d.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "guitarra_03_bc2a07121d",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-09-05T18:13:19.464Z",
+              "updatedAt": "2023-09-05T18:13:19.464Z"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 1
+    }
+  }
+}

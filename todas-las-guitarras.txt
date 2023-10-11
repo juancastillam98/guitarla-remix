@@ -1,0 +1,1104 @@
+{
+  "data": [
+    {
+      "id": 3,
+      "attributes": {
+        "nombre": "Page",
+        "createdAt": "2023-09-05T18:13:35.357Z",
+        "updatedAt": "2023-09-05T18:13:38.510Z",
+        "publishedAt": "2023-09-05T18:13:38.392Z",
+        "descripcion": "Nunc ac massa et metus vulputate fermentum non gravida dui. Cras et velit ante. Morbi ultrices, enim sed congue tincidunt, erat felis faucibus mi, sed vestibulum augue risus ut urna. Pellentesque vulputate nulla nec gravida malesuada. Sed suscipit mi ut laoreet sagittis. Etiam in augue imperdiet, cursus velit id, interdum ante. Donec posuere, felis vel molestie congue, elit eros sagittis diam, a faucibus velit orci sit amet mauris. Ut suscipit facilisis eros, vitae euismod diam volutpat vel. Curabitur tempus lacus id iaculis fermentum. Suspendisse sed aliquam magna. Phasellus et tempus mauris. Nunc erat nisi, pretium nec justo eu, faucibus auctor diam.",
+        "precio": 400,
+        "url": "page",
+        "imagen": {
+          "data": {
+            "id": 3,
+            "attributes": {
+              "name": "guitarra_03.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 400,
+              "height": 900,
+              "formats": {
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937599/small_guitarra_03_bc2a07121d.jpg",
+                  "hash": "small_guitarra_03_bc2a07121d",
+                  "mime": "image/jpeg",
+                  "name": "small_guitarra_03.jpg",
+                  "path": null,
+                  "size": 10.07,
+                  "width": 222,
+                  "height": 500,
+                  "provider_metadata": {
+                    "public_id": "small_guitarra_03_bc2a07121d",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937598/medium_guitarra_03_bc2a07121d.jpg",
+                  "hash": "medium_guitarra_03_bc2a07121d",
+                  "mime": "image/jpeg",
+                  "name": "medium_guitarra_03.jpg",
+                  "path": null,
+                  "size": 18.2,
+                  "width": 333,
+                  "height": 750,
+                  "provider_metadata": {
+                    "public_id": "medium_guitarra_03_bc2a07121d",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937598/thumbnail_guitarra_03_bc2a07121d.jpg",
+                  "hash": "thumbnail_guitarra_03_bc2a07121d",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_guitarra_03.jpg",
+                  "path": null,
+                  "size": 2.17,
+                  "width": 69,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_guitarra_03_bc2a07121d",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "guitarra_03_bc2a07121d",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 19.47,
+              "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937598/guitarra_03_bc2a07121d.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "guitarra_03_bc2a07121d",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-09-05T18:13:19.464Z",
+              "updatedAt": "2023-09-05T18:13:19.464Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "nombre": "Clapton",
+        "createdAt": "2023-09-05T18:12:10.447Z",
+        "updatedAt": "2023-09-05T18:14:24.301Z",
+        "publishedAt": "2023-09-05T18:14:24.190Z",
+        "descripcion": "\nfreestar\n\nfreestar\nDuis et neque in massa sagittis lobortis eu eget nibh. Praesent vehicula felis ac urna tincidunt ullamcorper. Etiam risus sem, posuere laoreet porttitor et, pellentesque pretium libero. Suspendisse potenti. Sed tincidunt mi at elit mattis, vitae convallis augue tempus. Vestibulum rhoncus neque nec rhoncus imperdiet. Pellentesque rutrum leo et est efficitur suscipit. ",
+        "precio": 233,
+        "url": "clapton",
+        "imagen": {
+          "data": {
+            "id": 2,
+            "attributes": {
+              "name": "guitarra_02.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 400,
+              "height": 900,
+              "formats": {
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937515/small_guitarra_02_d555904d38.jpg",
+                  "hash": "small_guitarra_02_d555904d38",
+                  "mime": "image/jpeg",
+                  "name": "small_guitarra_02.jpg",
+                  "path": null,
+                  "size": 14.41,
+                  "width": 222,
+                  "height": 500,
+                  "provider_metadata": {
+                    "public_id": "small_guitarra_02_d555904d38",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937515/medium_guitarra_02_d555904d38.jpg",
+                  "hash": "medium_guitarra_02_d555904d38",
+                  "mime": "image/jpeg",
+                  "name": "medium_guitarra_02.jpg",
+                  "path": null,
+                  "size": 26.52,
+                  "width": 333,
+                  "height": 750,
+                  "provider_metadata": {
+                    "public_id": "medium_guitarra_02_d555904d38",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937515/thumbnail_guitarra_02_d555904d38.jpg",
+                  "hash": "thumbnail_guitarra_02_d555904d38",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_guitarra_02.jpg",
+                  "path": null,
+                  "size": 2.35,
+                  "width": 69,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_guitarra_02_d555904d38",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "guitarra_02_d555904d38",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 31.42,
+              "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937515/guitarra_02_d555904d38.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "guitarra_02_d555904d38",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-09-05T18:11:55.901Z",
+              "updatedAt": "2023-09-05T18:11:55.901Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "nombre": "Beck",
+        "createdAt": "2023-09-05T18:15:29.049Z",
+        "updatedAt": "2023-09-05T18:15:32.700Z",
+        "publishedAt": "2023-09-05T18:15:32.588Z",
+        "descripcion": "Curabitur tempus lacus id iaculis fermentum. Suspendisse sed aliquam magna. Phasellus et tempus mauris. Nunc erat nisi, pretium nec justo eu, faucibus auctor diam.",
+        "precio": 786,
+        "url": "beck",
+        "imagen": {
+          "data": {
+            "id": 4,
+            "attributes": {
+              "name": "guitarra_04.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 400,
+              "height": 900,
+              "formats": {
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937716/small_guitarra_04_94eddc9409.jpg",
+                  "hash": "small_guitarra_04_94eddc9409",
+                  "mime": "image/jpeg",
+                  "name": "small_guitarra_04.jpg",
+                  "path": null,
+                  "size": 12.2,
+                  "width": 222,
+                  "height": 500,
+                  "provider_metadata": {
+                    "public_id": "small_guitarra_04_94eddc9409",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937716/medium_guitarra_04_94eddc9409.jpg",
+                  "hash": "medium_guitarra_04_94eddc9409",
+                  "mime": "image/jpeg",
+                  "name": "medium_guitarra_04.jpg",
+                  "path": null,
+                  "size": 21.76,
+                  "width": 333,
+                  "height": 750,
+                  "provider_metadata": {
+                    "public_id": "medium_guitarra_04_94eddc9409",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937716/thumbnail_guitarra_04_94eddc9409.jpg",
+                  "hash": "thumbnail_guitarra_04_94eddc9409",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_guitarra_04.jpg",
+                  "path": null,
+                  "size": 2.23,
+                  "width": 69,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_guitarra_04_94eddc9409",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "guitarra_04_94eddc9409",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 24.29,
+              "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937717/guitarra_04_94eddc9409.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "guitarra_04_94eddc9409",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-09-05T18:15:17.449Z",
+              "updatedAt": "2023-09-05T18:15:17.449Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 10,
+      "attributes": {
+        "nombre": "Young",
+        "createdAt": "2023-09-05T18:20:52.196Z",
+        "updatedAt": "2023-09-05T18:20:56.743Z",
+        "publishedAt": "2023-09-05T18:20:56.612Z",
+        "descripcion": "Maecenas sed nunc sit amet sem vehicula sodales. Sed iaculis iaculis lectus et aliquam. Proin malesuada porta dui vel luctus. Curabitur nec porta lectus. Nam id mi sed erat venenatis ultrices quis vitae sapien. Phasellus",
+        "precio": 674,
+        "url": "young",
+        "imagen": {
+          "data": {
+            "id": 10,
+            "attributes": {
+              "name": "guitarra_09.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 400,
+              "height": 900,
+              "formats": {
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693938024/small_guitarra_09_b43b2615e3.jpg",
+                  "hash": "small_guitarra_09_b43b2615e3",
+                  "mime": "image/jpeg",
+                  "name": "small_guitarra_09.jpg",
+                  "path": null,
+                  "size": 12.01,
+                  "width": 222,
+                  "height": 500,
+                  "provider_metadata": {
+                    "public_id": "small_guitarra_09_b43b2615e3",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693938027/medium_guitarra_09_b43b2615e3.jpg",
+                  "hash": "medium_guitarra_09_b43b2615e3",
+                  "mime": "image/jpeg",
+                  "name": "medium_guitarra_09.jpg",
+                  "path": null,
+                  "size": 22.21,
+                  "width": 333,
+                  "height": 750,
+                  "provider_metadata": {
+                    "public_id": "medium_guitarra_09_b43b2615e3",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693938023/thumbnail_guitarra_09_b43b2615e3.jpg",
+                  "hash": "thumbnail_guitarra_09_b43b2615e3",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_guitarra_09.jpg",
+                  "path": null,
+                  "size": 2.17,
+                  "width": 69,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_guitarra_09_b43b2615e3",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "guitarra_09_b43b2615e3",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 24.33,
+              "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693938024/guitarra_09_b43b2615e3.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "guitarra_09_b43b2615e3",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-09-05T18:20:27.993Z",
+              "updatedAt": "2023-09-05T18:20:27.993Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "nombre": "Morello",
+        "createdAt": "2023-09-05T18:17:07.327Z",
+        "updatedAt": "2023-09-05T18:17:20.083Z",
+        "publishedAt": "2023-09-05T18:17:19.959Z",
+        "descripcion": "rhoncus neque nec rhoncus imperdiet. Pellentesque rutrum leo et est efficitur suscipit. Maecenas sed nunc sit amet sem vehicula sodales.",
+        "precio": 934,
+        "url": "morello",
+        "imagen": {
+          "data": {
+            "id": 6,
+            "attributes": {
+              "name": "guitarra_06.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 400,
+              "height": 900,
+              "formats": {
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937802/small_guitarra_06_a55a8151d5.jpg",
+                  "hash": "small_guitarra_06_a55a8151d5",
+                  "mime": "image/jpeg",
+                  "name": "small_guitarra_06.jpg",
+                  "path": null,
+                  "size": 12.16,
+                  "width": 222,
+                  "height": 500,
+                  "provider_metadata": {
+                    "public_id": "small_guitarra_06_a55a8151d5",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937803/medium_guitarra_06_a55a8151d5.jpg",
+                  "hash": "medium_guitarra_06_a55a8151d5",
+                  "mime": "image/jpeg",
+                  "name": "medium_guitarra_06.jpg",
+                  "path": null,
+                  "size": 21.79,
+                  "width": 333,
+                  "height": 750,
+                  "provider_metadata": {
+                    "public_id": "medium_guitarra_06_a55a8151d5",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937803/thumbnail_guitarra_06_a55a8151d5.jpg",
+                  "hash": "thumbnail_guitarra_06_a55a8151d5",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_guitarra_06.jpg",
+                  "path": null,
+                  "size": 2.37,
+                  "width": 69,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_guitarra_06_a55a8151d5",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "guitarra_06_a55a8151d5",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 24.47,
+              "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937803/guitarra_06_a55a8151d5.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "guitarra_06_a55a8151d5",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-09-05T18:16:43.699Z",
+              "updatedAt": "2023-09-05T18:16:43.699Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "nombre": "Townshend",
+        "createdAt": "2023-09-05T18:16:24.048Z",
+        "updatedAt": "2023-09-05T18:17:49.732Z",
+        "publishedAt": "2023-09-05T18:16:27.125Z",
+        "descripcion": "a et metus vulputate fermentum non gravida dui. Cras et velit ante. Morbi ultrices, enim sed congue tincidunt, erat felis faucibus mi, sed vestibulum augue risus ut urna. Pellentesque vulputate nulla nec gravida malesuada. Sed suscipit mi ut laoreet sagittis. Etiam in augue imperdiet, cursus velit id, interdum ante. Donec posuere, felis vel molestie congue, elit eros sagittis diam, a faucibus velit orci sit amet mauris.",
+        "precio": 566,
+        "url": "townshend",
+        "imagen": {
+          "data": {
+            "id": 5,
+            "attributes": {
+              "name": "guitarra_05.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 400,
+              "height": 900,
+              "formats": {
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937770/small_guitarra_05_9bf9ffac17.jpg",
+                  "hash": "small_guitarra_05_9bf9ffac17",
+                  "mime": "image/jpeg",
+                  "name": "small_guitarra_05.jpg",
+                  "path": null,
+                  "size": 11.42,
+                  "width": 222,
+                  "height": 500,
+                  "provider_metadata": {
+                    "public_id": "small_guitarra_05_9bf9ffac17",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937770/medium_guitarra_05_9bf9ffac17.jpg",
+                  "hash": "medium_guitarra_05_9bf9ffac17",
+                  "mime": "image/jpeg",
+                  "name": "medium_guitarra_05.jpg",
+                  "path": null,
+                  "size": 20.51,
+                  "width": 333,
+                  "height": 750,
+                  "provider_metadata": {
+                    "public_id": "medium_guitarra_05_9bf9ffac17",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937770/thumbnail_guitarra_05_9bf9ffac17.jpg",
+                  "hash": "thumbnail_guitarra_05_9bf9ffac17",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_guitarra_05.jpg",
+                  "path": null,
+                  "size": 2.22,
+                  "width": 69,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_guitarra_05_9bf9ffac17",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "guitarra_05_9bf9ffac17",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 22.15,
+              "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937770/guitarra_05_9bf9ffac17.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "guitarra_05_9bf9ffac17",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-09-05T18:16:10.928Z",
+              "updatedAt": "2023-09-05T18:16:10.928Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "nombre": "Cobain",
+        "createdAt": "2023-09-05T18:19:12.532Z",
+        "updatedAt": "2023-09-05T18:19:16.356Z",
+        "publishedAt": "2023-09-05T18:19:16.224Z",
+        "descripcion": "ncidunt ullamcorper. Etiam risus sem, posuere laoreet porttitor et, pellentesque pretium libero. Suspendisse potenti. Sed tincidunt mi at elit mattis, vitae convallis augue tempus. Vestibulum rhoncus neque nec rhoncus imperdiet. Pellentesque rutrum leo et est efficitur suscipit. Maecenas sed nunc sit amet sem vehicula sodales. Sed iaculis iaculis lectus et aliquam. Proin malesuada porta dui vel luctus. Curabitur nec porta lectus. Nam id mi sed erat ven",
+        "precio": 232,
+        "url": "cobain",
+        "imagen": {
+          "data": {
+            "id": 8,
+            "attributes": {
+              "name": "guitarra_07.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 400,
+              "height": 900,
+              "formats": {
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937922/small_guitarra_07_3da7e430b9.jpg",
+                  "hash": "small_guitarra_07_3da7e430b9",
+                  "mime": "image/jpeg",
+                  "name": "small_guitarra_07.jpg",
+                  "path": null,
+                  "size": 11.33,
+                  "width": 222,
+                  "height": 500,
+                  "provider_metadata": {
+                    "public_id": "small_guitarra_07_3da7e430b9",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937922/medium_guitarra_07_3da7e430b9.jpg",
+                  "hash": "medium_guitarra_07_3da7e430b9",
+                  "mime": "image/jpeg",
+                  "name": "medium_guitarra_07.jpg",
+                  "path": null,
+                  "size": 20.08,
+                  "width": 333,
+                  "height": 750,
+                  "provider_metadata": {
+                    "public_id": "medium_guitarra_07_3da7e430b9",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937922/thumbnail_guitarra_07_3da7e430b9.jpg",
+                  "hash": "thumbnail_guitarra_07_3da7e430b9",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_guitarra_07.jpg",
+                  "path": null,
+                  "size": 2.25,
+                  "width": 69,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_guitarra_07_3da7e430b9",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "guitarra_07_3da7e430b9",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 21.33,
+              "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937922/guitarra_07_3da7e430b9.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "guitarra_07_3da7e430b9",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-09-05T18:18:43.090Z",
+              "updatedAt": "2023-09-05T18:18:43.090Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 11,
+      "attributes": {
+        "nombre": "Keith",
+        "createdAt": "2023-09-05T18:21:35.141Z",
+        "updatedAt": "2023-09-05T18:21:48.944Z",
+        "publishedAt": "2023-09-05T18:21:48.814Z",
+        "descripcion": "Maecenas sed nunc sit amet sem vehicula . Sed iaculis iaculis lectus et aliquam. Proin malesuada porta dui vel luctus. Curabitur nec porta lectus. Nam id mi sed erat venenatis ultrices asd vitae sapien. Phasellus",
+        "precio": 345,
+        "url": "keith",
+        "imagen": {
+          "data": {
+            "id": 11,
+            "attributes": {
+              "name": "guitarra_10.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 400,
+              "height": 900,
+              "formats": {
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693938077/small_guitarra_10_62a2ecc446.jpg",
+                  "hash": "small_guitarra_10_62a2ecc446",
+                  "mime": "image/jpeg",
+                  "name": "small_guitarra_10.jpg",
+                  "path": null,
+                  "size": 11.59,
+                  "width": 222,
+                  "height": 500,
+                  "provider_metadata": {
+                    "public_id": "small_guitarra_10_62a2ecc446",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693938077/medium_guitarra_10_62a2ecc446.jpg",
+                  "hash": "medium_guitarra_10_62a2ecc446",
+                  "mime": "image/jpeg",
+                  "name": "medium_guitarra_10.jpg",
+                  "path": null,
+                  "size": 20.91,
+                  "width": 333,
+                  "height": 750,
+                  "provider_metadata": {
+                    "public_id": "medium_guitarra_10_62a2ecc446",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693938077/thumbnail_guitarra_10_62a2ecc446.jpg",
+                  "hash": "thumbnail_guitarra_10_62a2ecc446",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_guitarra_10.jpg",
+                  "path": null,
+                  "size": 2.25,
+                  "width": 69,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_guitarra_10_62a2ecc446",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "guitarra_10_62a2ecc446",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 22.36,
+              "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693938077/guitarra_10_62a2ecc446.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "guitarra_10_62a2ecc446",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-09-05T18:21:18.566Z",
+              "updatedAt": "2023-09-05T18:21:18.566Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 12,
+      "attributes": {
+        "nombre": "Blakcmore",
+        "createdAt": "2023-09-05T18:22:33.567Z",
+        "updatedAt": "2023-09-05T18:22:37.894Z",
+        "publishedAt": "2023-09-05T18:22:37.759Z",
+        "descripcion": "ursus velit id, interdum ante. Donec posuere, felis vel molestie congue, elit eros sagittis diam, a faucibus velit orci sit amet mauris. Ut suscipit facilisis eros, vitae euismod diam volutpat vel. Curabitur tempus lacus id iaculis fermentum. Suspendisse sed aliquam magna. Phasellus et tempus mauris. Nunc er",
+        "precio": 234,
+        "url": "b-1",
+        "imagen": {
+          "data": {
+            "id": 12,
+            "attributes": {
+              "name": "guitarra_11.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 400,
+              "height": 900,
+              "formats": {
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693938120/small_guitarra_11_528fc539f4.jpg",
+                  "hash": "small_guitarra_11_528fc539f4",
+                  "mime": "image/jpeg",
+                  "name": "small_guitarra_11.jpg",
+                  "path": null,
+                  "size": 12.38,
+                  "width": 222,
+                  "height": 500,
+                  "provider_metadata": {
+                    "public_id": "small_guitarra_11_528fc539f4",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693938120/medium_guitarra_11_528fc539f4.jpg",
+                  "hash": "medium_guitarra_11_528fc539f4",
+                  "mime": "image/jpeg",
+                  "name": "medium_guitarra_11.jpg",
+                  "path": null,
+                  "size": 21.67,
+                  "width": 333,
+                  "height": 750,
+                  "provider_metadata": {
+                    "public_id": "medium_guitarra_11_528fc539f4",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693938120/thumbnail_guitarra_11_528fc539f4.jpg",
+                  "hash": "thumbnail_guitarra_11_528fc539f4",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_guitarra_11.jpg",
+                  "path": null,
+                  "size": 2.49,
+                  "width": 69,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_guitarra_11_528fc539f4",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "guitarra_11_528fc539f4",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 22.33,
+              "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693938120/guitarra_11_528fc539f4.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "guitarra_11_528fc539f4",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-09-05T18:22:01.023Z",
+              "updatedAt": "2023-09-05T18:22:01.023Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 13,
+      "attributes": {
+        "nombre": "Bamba",
+        "createdAt": "2023-09-05T18:23:54.805Z",
+        "updatedAt": "2023-09-05T18:23:58.438Z",
+        "publishedAt": "2023-09-05T18:23:58.326Z",
+        "descripcion": "PARA BAILAR A LA BAMBA SE NECESITA UNA POCA DE GRACIA PARA TI Y PARA MI Y PARA ARRIBA PARA ARRIBA",
+        "precio": 999,
+        "url": "bamba",
+        "imagen": {
+          "data": {
+            "id": 13,
+            "attributes": {
+              "name": "guitarra_12.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 400,
+              "height": 900,
+              "formats": {
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693938210/small_guitarra_12_b2e7377659.jpg",
+                  "hash": "small_guitarra_12_b2e7377659",
+                  "mime": "image/jpeg",
+                  "name": "small_guitarra_12.jpg",
+                  "path": null,
+                  "size": 12.38,
+                  "width": 222,
+                  "height": 500,
+                  "provider_metadata": {
+                    "public_id": "small_guitarra_12_b2e7377659",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693938210/medium_guitarra_12_b2e7377659.jpg",
+                  "hash": "medium_guitarra_12_b2e7377659",
+                  "mime": "image/jpeg",
+                  "name": "medium_guitarra_12.jpg",
+                  "path": null,
+                  "size": 22.04,
+                  "width": 333,
+                  "height": 750,
+                  "provider_metadata": {
+                    "public_id": "medium_guitarra_12_b2e7377659",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693938210/thumbnail_guitarra_12_b2e7377659.jpg",
+                  "hash": "thumbnail_guitarra_12_b2e7377659",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_guitarra_12.jpg",
+                  "path": null,
+                  "size": 2.28,
+                  "width": 69,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_guitarra_12_b2e7377659",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "guitarra_12_b2e7377659",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 23.41,
+              "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693938218/guitarra_12_b2e7377659.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "guitarra_12_b2e7377659",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-09-05T18:23:40.694Z",
+              "updatedAt": "2023-09-05T18:23:40.694Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 9,
+      "attributes": {
+        "nombre": "Dale",
+        "createdAt": "2023-09-05T18:20:07.023Z",
+        "updatedAt": "2023-09-05T18:24:05.439Z",
+        "publishedAt": "2023-09-05T18:24:05.317Z",
+        "descripcion": "ncidunt ullamcorper. Etiam risus sem, posuere laoreet porttitor et, pellentesque pretium libero. Suspendisse potenti. Sed tincidunt mi at elit mattis, vitae convallis augue tempus. Vtus et aliquam. Proin malesuada porta dui vel luctus. Curabitur nec porta lectus. Nam id mi sed erat ven",
+        "precio": 761,
+        "url": "dale",
+        "imagen": {
+          "data": {
+            "id": 9,
+            "attributes": {
+              "name": "guitarra_08.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 400,
+              "height": 900,
+              "formats": {
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937986/small_guitarra_08_9c0c00a60d.jpg",
+                  "hash": "small_guitarra_08_9c0c00a60d",
+                  "mime": "image/jpeg",
+                  "name": "small_guitarra_08.jpg",
+                  "path": null,
+                  "size": 11.98,
+                  "width": 222,
+                  "height": 500,
+                  "provider_metadata": {
+                    "public_id": "small_guitarra_08_9c0c00a60d",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937987/medium_guitarra_08_9c0c00a60d.jpg",
+                  "hash": "medium_guitarra_08_9c0c00a60d",
+                  "mime": "image/jpeg",
+                  "name": "medium_guitarra_08.jpg",
+                  "path": null,
+                  "size": 21.81,
+                  "width": 333,
+                  "height": 750,
+                  "provider_metadata": {
+                    "public_id": "medium_guitarra_08_9c0c00a60d",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937986/thumbnail_guitarra_08_9c0c00a60d.jpg",
+                  "hash": "thumbnail_guitarra_08_9c0c00a60d",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_guitarra_08.jpg",
+                  "path": null,
+                  "size": 2.26,
+                  "width": 69,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_guitarra_08_9c0c00a60d",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "guitarra_08_9c0c00a60d",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 23.49,
+              "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937987/guitarra_08_9c0c00a60d.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "guitarra_08_9c0c00a60d",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-09-05T18:19:47.634Z",
+              "updatedAt": "2023-09-05T18:19:47.634Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 7,
+      "attributes": {
+        "nombre": "Borland",
+        "createdAt": "2023-09-05T18:18:26.030Z",
+        "updatedAt": "2023-09-05T18:24:11.260Z",
+        "publishedAt": "2023-09-05T18:24:11.067Z",
+        "descripcion": "t metus vulputate fermentum non gravida dui. Cras et velit ante. Morbi ultrices, enim sed congue tincidunt, erat felis faucibus mi, sed vestibulum augue risus ut urna. ",
+        "precio": null,
+        "url": "borland",
+        "imagen": {
+          "data": {
+            "id": 7,
+            "attributes": {
+              "name": "guitarra_06.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 400,
+              "height": 900,
+              "formats": {
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937898/small_guitarra_06_8cd2a5b632.jpg",
+                  "hash": "small_guitarra_06_8cd2a5b632",
+                  "mime": "image/jpeg",
+                  "name": "small_guitarra_06.jpg",
+                  "path": null,
+                  "size": 12.16,
+                  "width": 222,
+                  "height": 500,
+                  "provider_metadata": {
+                    "public_id": "small_guitarra_06_8cd2a5b632",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937898/medium_guitarra_06_8cd2a5b632.jpg",
+                  "hash": "medium_guitarra_06_8cd2a5b632",
+                  "mime": "image/jpeg",
+                  "name": "medium_guitarra_06.jpg",
+                  "path": null,
+                  "size": 21.79,
+                  "width": 333,
+                  "height": 750,
+                  "provider_metadata": {
+                    "public_id": "medium_guitarra_06_8cd2a5b632",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937897/thumbnail_guitarra_06_8cd2a5b632.jpg",
+                  "hash": "thumbnail_guitarra_06_8cd2a5b632",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_guitarra_06.jpg",
+                  "path": null,
+                  "size": 2.37,
+                  "width": 69,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_guitarra_06_8cd2a5b632",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "guitarra_06_8cd2a5b632",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 24.47,
+              "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693937898/guitarra_06_8cd2a5b632.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "guitarra_06_8cd2a5b632",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-09-05T18:18:18.722Z",
+              "updatedAt": "2023-09-05T18:18:18.722Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 1,
+      "attributes": {
+        "nombre": "Vai",
+        "createdAt": "2023-09-05T17:58:25.120Z",
+        "updatedAt": "2023-09-06T18:05:12.797Z",
+        "publishedAt": "2023-09-05T18:14:17.639Z",
+        "descripcion": "Pellentesque ornare pretium metus in tincidunt. Vestibulum nisi est, auctor blandit aliquam vel, pulvinar nec tortor. Cras vestibulum sodales ultricies. Quisque nec nunc maximus, pellentesque quam quis, maximus metus. Fusce fermentum massa et ullamcorper fringilla. Aliquam sed vulputate quam. Pellentesque ut condimentum orci. Etiam sed ante suscipit, dictum dolor eu, blandit arcu. Fusce finibus nisi in tellus dignissim, et mollis nunc rhoncus. Donec tortor nisi, rutrum vel scelerisque sed, finibus vehicula enim. Aliquam tincidunt tempus arcu, vel maximus ex venenatis vel. Suspendisse a efficitur nisi, sed volutpat felis. Fusce vel enim id dolor venenatis posuere ut sit amet mauris. Donec rhoncus dui ut aliquet fringilla.",
+        "precio": 435,
+        "url": "vai",
+        "imagen": {
+          "data": {
+            "id": 1,
+            "attributes": {
+              "name": "guitarra_01.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 400,
+              "height": 900,
+              "formats": {
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693936673/small_guitarra_01_f1734aacaa.jpg",
+                  "hash": "small_guitarra_01_f1734aacaa",
+                  "mime": "image/jpeg",
+                  "name": "small_guitarra_01.jpg",
+                  "path": null,
+                  "size": 11.48,
+                  "width": 222,
+                  "height": 500,
+                  "provider_metadata": {
+                    "public_id": "small_guitarra_01_f1734aacaa",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693936673/medium_guitarra_01_f1734aacaa.jpg",
+                  "hash": "medium_guitarra_01_f1734aacaa",
+                  "mime": "image/jpeg",
+                  "name": "medium_guitarra_01.jpg",
+                  "path": null,
+                  "size": 20.56,
+                  "width": 333,
+                  "height": 750,
+                  "provider_metadata": {
+                    "public_id": "medium_guitarra_01_f1734aacaa",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693936673/thumbnail_guitarra_01_f1734aacaa.jpg",
+                  "hash": "thumbnail_guitarra_01_f1734aacaa",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_guitarra_01.jpg",
+                  "path": null,
+                  "size": 2.19,
+                  "width": 69,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_guitarra_01_f1734aacaa",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "guitarra_01_f1734aacaa",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 22.35,
+              "url": "https://res.cloudinary.com/de6pi9m1q/image/upload/v1693936673/guitarra_01_f1734aacaa.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "guitarra_01_f1734aacaa",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-09-05T17:57:54.206Z",
+              "updatedAt": "2023-09-05T17:58:18.175Z"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 13
+    }
+  }
+}

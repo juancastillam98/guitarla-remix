@@ -1,6 +1,6 @@
-import Guitarra from "~/components/guitarra";
+import {Guitarra} from "~/components/guitarra";
 
-export default function ListadoGuitarras({guitarras}) {
+export function ListadoGuitarras({guitarras}) {
   return (
    <>
     {guitarras.length && (

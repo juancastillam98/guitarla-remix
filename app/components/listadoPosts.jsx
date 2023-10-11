@@ -1,21 +1,21 @@
-import {Post} from "~/components/post"
+import {Post} from "./post";
 
-export default function ListadoPosts({posts}) {
+export  function ListadoPosts({posts}) {
   return (
     <>
-        <div className={"blog"}>
-            {posts.map(post =>{
-
-                return (
-
-                    <Post
-                        key={post.id}
-                        post={post.attributes}
-                    />
+        {posts.length  && (
+            <div className={"blog"}>
+                {posts.map(post =>{
+                    return (
+                        <Post
+                            key={post.id}
+                            post={post.attributes}
+                        />
                     )
+                })}
+            </div>
+        )}
 
-            })}
-        </div>
     </>
   )
 }
