@@ -1,6 +1,5 @@
 export function Curso({curso}){
     const {contenido, imagen, titulo} = curso
-    console.log(curso)
     return (
         <section className={"curso"}>
             {/*esto es una sintaxis especial de jsx*/}

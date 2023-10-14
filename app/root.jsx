@@ -4,9 +4,10 @@ import {
     Links,
     Outlet,
     Scripts,//este componente predefinido de Remix es para mejorar el js
-    LiveReload, useCatch, //este liveReload es para no tener que recargar la página para visualizar los cambios
-    Link
+    LiveReload, //este liveReload es para no tener que recargar la página para visualizar los cambios
+    Link, useRouteError
 } from "@remix-run/react"
+import {useState, useEffect} from "react";
 import styles from "~/styles/index.css"; //el símbolo ~ hace referencia a la carpeta de app Está configurado en el fichero tsconfig.json
 import Header from "~/components/header";
 import {Footer} from "~/components/footer";
@@ -53,10 +54,65 @@ export function links(){
     ]
 }
 export  default  function App(){
+    /*
+    SI no hay naa en localStorage, va a inicializar con un array vacío. Lo del typeof window es porque por defecto, localStorage ha estar dentro de un useEfect, o estate.
+     pero al principio, como está fuera esto no funciona y nos dice la consola que localStorage no está definido.
+        */
+    const carritoLS = typeof window !== "undefined" ? JSON.parse(localStorage.getItem("carrito")) ?? [] : null;
+    const [carrito, setCarrito] =useState(carritoLS);
+    useEffect(()=>{
+        localStorage.setItem("carrito", JSON.stringify(carrito));
+    }, [carrito])
+    const agregarCarrito = (guitarra)=>{
+        //si ya existe esa guitarra
+        if (carrito.some( guitarraCarrito => guitarraCarrito.id === guitarra.id )){
+            //iterar sobre el array e identificar el carrito duplicado
+             const carritoActualizado = carrito.map(guitarraCarrito =>{
+                 if (guitarraCarrito.id=== guitarra.id){
+                     //Reescribir la cantidad
+                     guitarraCarrito.cantidad = guitarra.cantidad;
+                 }
+                 return guitarraCarrito;
+             } )
+            setCarrito(carritoActualizado)
+          }else{
+            //registro nuevo
+            setCarrito([...carrito, guitarra])
+        }
+    }
+    const actualizarCantidad = (guitarra)=>{
+        const carritoActualizado = carrito.map(guitarraElemento =>{
+                if (guitarraElemento.id === guitarra.id){
+                    guitarraElemento.cantidad =guitarra.cantidad;
+                }
+                return guitarraElemento;
+
+        })
+        setCarrito(carritoActualizado)
+    }
+    const eliminarGuitarra = (id)=>{
+        const carritoActualizado = carrito.filter(guitarraElemento =>{
+            return guitarraElemento.id !== id
+        })
+        setCarrito(carritoActualizado)
+    }
     return (
         <Document>
             {/*El contenido dentro de document es lo que se va pasar como children*/}
-            <Outlet />
+            <Outlet
+                /*
+                El context, es para pasar la iinformación a través del árbol sin necesidad de pasarla usando los props. Por ejemplo, antes para pasara el estado de un De una tienda a un producto,
+                se lo pasábamos de tienda a carrito y de carrito a producto. Con context ya podemos pasarla directamente a producto
+                */
+                //context siempre es un objeto. Para usar la información de este context, hay que importar el hook de useOutletContext en el componte/ruta... es decir donde queramos utilizaro
+                context={{
+                    guitarLA: "GuitarLA",
+                    agregarCarrito,
+                    carrito,
+                    actualizarCantidad,
+                    eliminarGuitarra
+                }}
+            />
         </Document>
     )
 }
@@ -69,7 +125,7 @@ function Document({children}) {//también lo podemos llamar como Layout, porque 
             </head>
             <body>
                 <Header />
-                {children}
+                {children}{/*Esto es lo que gracias al outlet, se va a ir cambio. Lo que hace el outlet para que esto sea posible, es renderizar un componente distion en base a la ruta*/}
                 <Footer />
                 <Scripts />
             <LiveReload />
@@ -80,7 +136,7 @@ function Document({children}) {//también lo podemos llamar como Layout, porque 
 
 /**Manejo de errores**/
 export function CatchBoundary(){
-    const error = useCatch()
+    const error = useRouteError()
     return(
         <Document>
             <p className={"error"}>{error.status} {error.statusText}</p>

@@ -8,6 +8,8 @@
 }*/
 import imagen from "../../public/img/nosotros.jpg";
 import styles from "../styles/nosotros.css"
+import {useOutletContext} from "@remix-run/react";//hok para extraer la información del content
+
 export function meta(){
     return [
         {
@@ -30,6 +32,7 @@ export function links(){//de esta manera estamos sacando la hoja de estilos corr
 }
 
 function Nosotros() {
+    const data = useOutletContext();
     return (
         <main className={"contenedor nosotros"}>
             <h2 className={"heading"}>Nosotros</h2>

@@ -6,7 +6,6 @@ import {useLoaderData} from "@remix-run//react";
 import {ListadoPosts} from "~/components/listadoPosts"
 import {ListadoGuitarras} from "~/components/listadoGuitarras"
 import {Curso} from "~/components/curso";
-// @ts-ignore
 import stylesGuitarras from "~/styles/guitarras.css"
 import stylesPosts from "~/styles/blog.css"
 import stylesCurso from "~/styles/curso.css"
@@ -48,7 +47,9 @@ export async function loader(){
 
 function Index() {
  const {guitarras, posts, curso} = useLoaderData();
-    console.log(posts)
+    console.log("contenido de guitarras")
+    console.log(guitarras)
+
     return (
         <div>
             <h1>Desde index.jsx</h1>
